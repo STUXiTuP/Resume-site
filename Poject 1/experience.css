@@ -1,0 +1,93 @@
+html {
+  background-color: white;
+  font-family: monospace;
+}
+.nav-bar {
+  background-color: DarkGrey;
+  height: 78px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-group-logo {
+border-top-left-radius: 15px;
+background-color: DarkGrey;
+border: none;
+padding: 25px 24px 25px 35px;
+cursor: pointer;
+float: left;
+}
+
+.btn-group-logo:hover {
+  background-color: black
+}
+
+.nav-head {
+  font-family: monospace;
+  font-size: 15px;
+  background-color: DarkGrey;
+  border: none;
+  color: #565656;
+  padding: 18px 24px 22px 24px;
+  float: left;
+}
+
+.btn-group {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: DarkGrey;
+  border: none;
+  color: #565656;
+  padding: 27.5px 24px;
+  cursor: pointer;
+  float: right;
+}
+
+.btn-group:hover {
+  background-color: black;
+  color: #565656;
+}
+
+.btn-group-xp {
+  border-top-right-radius: 15px;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: DarkGrey;
+  border: none;
+  color: #565656;
+  padding: 27.5px 24px;
+  cursor: pointer;
+  float: right;
+}
+
+.btn-group-xp:hover {
+  background-color: black;
+  color: #565656;
+}
+
+#nav-buttons {
+  box-shadow: 0px 5px 15px grey;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+.img-background {
+  background-image: url(img/brick-wall.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 100px;
+}
+
+.xp-text {
+  border-radius: 15px;
+  background-color: white;
+  padding: 30px;
+  margin: 50px;
+  width: 800px;
+}
+#xp-box {
+  box-shadow: 5px 5px 15px black;
+}
